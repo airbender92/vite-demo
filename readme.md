@@ -98,6 +98,19 @@ npm create vite@latest my-vue-app -- --template vue
 
 **在开发过程中，Vite 是一个服务器，而 index.html 是应用程序的入口点。**
 
+### 快速启动一个项目
+```bash
+ npm install -D vite
+
+ #create an index.html file like this:
+ <p>Hello Vite!</p>
+
+ #Then run the appropriate CLI command in your terminal:
+ npx vite
+
+ #The index.html will be served on http://localhost:5173.
+```
+
 
 ### 示例：`index.html` 中 URL 自动调整基准路径
 
