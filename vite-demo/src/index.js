@@ -1,6 +1,7 @@
 import vueSvg from './assets/images/vue.svg';
 
-const modules = import.meta.glob('./dir/*.js')
+// const modules = import.meta.glob(['./dir/*.js', '!**/b.js'])
+const modules = import.meta.glob(['./dir/*.js'])
 
 const imgDom = document.createElement('img');
 imgDom.src = vueSvg;
